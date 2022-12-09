@@ -11,7 +11,7 @@ export interface EmpleadoWithRelations {
   cargoId?: string;
   disponible?: boolean;
   fechaIngreso: string;
-  id?: string;
+  id: string;
   nombre: string;
   vacaciones?: Array<VacacionesWithRelations>;
 }

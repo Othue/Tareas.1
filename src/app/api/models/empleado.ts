@@ -4,6 +4,6 @@ export interface Empleado {
   cargoId?: string;
   disponible?: boolean;
   fechaIngreso: string;
-  id?: string;
+  id: string;
   nombre: string;
 }
